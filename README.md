@@ -4,7 +4,7 @@ The list of all comics is downloaded by the *scrape_xkcd.py* script and then sho
 Selecting an entry will download the corresponding comic image and display within rofi.  
 All downloaded comics are locally cached in the *~/HOME/.cache/xkcd_cache* folder for future views. 
 
-Dependencies: rofi, python3-requests, python3-lxml
+Dependencies: rofi, jq, python3-requests, python3-lxml
 
 ## Gallery
 Comic View
