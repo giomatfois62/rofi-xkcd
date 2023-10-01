@@ -1,8 +1,10 @@
 # rofi-xkcd
-rofi-xkcd is a rofi menu made to browse, download and view xkcd comics.
-The list of all comics is downloaded by the *scrape_xkcd.py* script and then showed in a rofi menu by the *rofi-xkcd.sh* script.
-Selecting an entry will download the corresponding comic image and display within rofi.
-All downloaded comics are locally cached in the *~/HOME/.cache/xkcd_cache* folder for future views.
+rofi-xkcd is a rofi menu made to browse, download and view xkcd comics.  
+The list of all comics is downloaded by the *scrape_xkcd.py* script and then showed in a rofi menu by the *rofi-xkcd.sh* script.  
+Selecting an entry will download the corresponding comic image and display within rofi.  
+All downloaded comics are locally cached in the *~/HOME/.cache/xkcd_cache* folder for future views. 
+
+Dependencies: rofi, python3-requests, python3-lxml
 
 ## Gallery
 Comic View
